@@ -10,7 +10,7 @@ jobs:
                           with:
                                   registry: ghcr.io
                                   username: ${{ github.actor }}
-                                  password: ${{ secrets.MY_ACCESS }}
+                                  password: ${{ secrets.MY_TICKET }}
                         - name: Build the ubuntu-docker Docker image
                           run: |
                                   chmod +x test.sh
