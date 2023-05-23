@@ -14,7 +14,7 @@ git config --list
 
 git clone -b dunfell git://git.yoctoproject.org/poky.git
 
-cd $(pwd)/build/poky
+cd $(pwd)/poky
 
 source oe-init-build-env build
 
