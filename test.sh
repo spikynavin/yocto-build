@@ -18,4 +18,4 @@ cd $(pwd)/poky
 
 source oe-init-build-env build
 
-bitbake -s
+bitbake core-image-minimal
