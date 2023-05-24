@@ -4,7 +4,7 @@ echo "hello world for yocto testing in workflows...!"
 
 echo "Current path: $(pwd)"
 
-echo "Memory available: $(df -h)
+echo "Memory available: $(df -h)"
 
 mkdir -p $(pwd)/build
 
