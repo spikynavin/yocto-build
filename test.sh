@@ -4,6 +4,8 @@ echo "hello world for yocto testing in workflows...!"
 
 echo "Current path: $(pwd)"
 
+echo "Memory available: $(df -h)
+
 mkdir -p $(pwd)/build
 
 cd $(pwd)/build
@@ -16,6 +18,6 @@ git clone -b dunfell git://git.yoctoproject.org/poky.git
 
 cd $(pwd)/poky
 
-source oe-init-build-env build
+#source oe-init-build-env build
 
-bitbake core-image-minimal
+#bitbake core-image-minimal
